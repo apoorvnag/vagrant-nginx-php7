@@ -62,3 +62,9 @@ sudo apt-get install git
 echo "\n----- Installing Node JS 10 ------\n"
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
+
+# Java8
+# https://gist.github.com/tinkerware/cf0c47bb69bf42c2d740
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get install oracle-java8-installer
